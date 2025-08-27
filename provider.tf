@@ -10,7 +10,7 @@ terraform {
 
 provider "yandex" {
   # token     = 
-  service_account_key_file = var.ssh_pub_key_path
+  service_account_key_file = var.service_account_key_file_path
   	# не обязательный параметр (берется облако по умолчанию),
 	# хотя в документации написано иначе (проверить)
   cloud_id  = var.cloud_id

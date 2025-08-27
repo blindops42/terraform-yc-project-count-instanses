@@ -43,5 +43,11 @@ variable "vm_image_id" {
 variable "ssh_pub_key_path" {
   description = "Path to SSH public key"
   type        = string
-  default     = "~/.ssh/deusops.pub"
+  default     = "yandexkey.pub"
+}
+
+variable "service_account_key_file_path" {
+  description = "Path to service_account_key_file"
+  type        = string
+  default     = "authorized_key.json"
 }
