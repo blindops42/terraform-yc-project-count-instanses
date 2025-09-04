@@ -43,7 +43,7 @@ variable "vm_image_id" {
 variable "ssh_pub_key_path" {
   description = "Path to SSH public key"
   type        = string
-  default     = "yandexkey.pub"
+  default     = "publickey"
 }
 
 variable "service_account_key_file_path" {
