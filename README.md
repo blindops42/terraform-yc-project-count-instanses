@@ -5,3 +5,4 @@
 output "ansible_inventory_file" {
   value = module.simple-project.ansible_inventory_file
 }
+1.0.2
