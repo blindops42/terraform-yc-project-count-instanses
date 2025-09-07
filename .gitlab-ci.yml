@@ -1,3 +1,6 @@
 ---
 include:
   - component: gitlab.com/blind-gitlabci/gitlab-tofu-ansible/gitlab-tofu-module-test-push@1.1.0
+
+variables:
+  GITHUB_REPO: github.com/blindops42/terraform-$PROJECRT_NAME.git
