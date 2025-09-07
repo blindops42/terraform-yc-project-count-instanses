@@ -1,3 +1,3 @@
 ---
 include:
-  - component: $CI_SERVER_FQDN/blind-gitlabci-components/opentofu-ansible/gitlab-tofu-module-test-push@main
+  - component: gitlab.com/blind-gitlabci/gitlab-tofu-ansible/gitlab-tofu-module-test-push@1.1.0
